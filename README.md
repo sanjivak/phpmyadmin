@@ -35,6 +35,8 @@ Allow from 127.0.0.1
 Allow from 68.24.9.0/24
 
 <IfModule mod_php5.c>
+
+
 The above lines will allow access from 127.0.0.1 and all IP addresses on 68.24.9.x. This scenario would represent if you had the need to allow access from a business network.
 
 In order for the change to activate you must restart Apache. After restarting, navigating from an unauthorized IP will result in an access forbidden error.
